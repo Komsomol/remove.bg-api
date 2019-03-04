@@ -1,6 +1,6 @@
 # Remove.bg API test
 
-Testing out the (Remove.bg)[https://www.remove.bg/api] API. 
+Testing out the [Remove.bg](https://www.remove.bg/api) API. 
 
 # Installation steps
 Follow this to get setup
