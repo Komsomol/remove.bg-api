@@ -1,9 +1,9 @@
 require('dotenv').config()
-var request = require('request');
-var fs = require('fs');
+const request = require('request');
+const fs = require('fs');
 
-var imageFile = fs.readFileSync('images/face.jpg');
-var encoded = Buffer.from(imageFile).toString('base64');
+const imageFile = fs.readFileSync('images/face.jpg');
+const encoded = Buffer.from(imageFile).toString('base64');
 
 request.post({
     url: 'https://api.remove.bg/v1.0/removebg',
